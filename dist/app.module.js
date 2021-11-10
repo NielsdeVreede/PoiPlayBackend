@@ -12,13 +12,15 @@ const typeorm_1 = require("@nestjs/typeorm");
 const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
 const attendance_module_1 = require("./attendance/attendance.module");
+const poi_module_1 = require("./poi/poi.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     (0, common_1.Module)({
         imports: [
             typeorm_1.TypeOrmModule.forRoot(),
-            attendance_module_1.AttendanceModule
+            attendance_module_1.AttendanceModule,
+            poi_module_1.PoiModule
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
