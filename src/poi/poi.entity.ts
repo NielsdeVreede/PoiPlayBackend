@@ -10,7 +10,7 @@ export class PoiEntity {
     name: string;
 
     @Column()
-    latitutde: string
+    latitude: string
 
     @Column()
     longitude: string

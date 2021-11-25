@@ -44,7 +44,7 @@ __decorate([
     __metadata("design:returntype", String)
 ], AttendenceController.prototype, "saveNewAttendance", null);
 AttendenceController = __decorate([
-    (0, common_1.Controller)('attendence'),
+    (0, common_1.Controller)('attendance'),
     __metadata("design:paramtypes", [attendance_service_1.AttendenceService])
 ], AttendenceController);
 exports.AttendenceController = AttendenceController;

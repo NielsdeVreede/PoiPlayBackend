@@ -24,7 +24,7 @@ __decorate([
 __decorate([
     (0, typeorm_1.Column)(),
     __metadata("design:type", String)
-], PoiEntity.prototype, "latitutde", void 0);
+], PoiEntity.prototype, "latitude", void 0);
 __decorate([
     (0, typeorm_1.Column)(),
     __metadata("design:type", String)

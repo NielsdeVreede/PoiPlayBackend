@@ -1,6 +1,6 @@
 export declare class PoiEntity {
     id: number;
     name: string;
-    latitutde: string;
+    latitude: string;
     longitude: string;
 }

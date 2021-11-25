@@ -25,6 +25,14 @@ __decorate([
     (0, typeorm_1.Column)('date'),
     __metadata("design:type", Date)
 ], Attendance.prototype, "date", void 0);
+__decorate([
+    (0, typeorm_1.Column)(),
+    __metadata("design:type", String)
+], Attendance.prototype, "name", void 0);
+__decorate([
+    (0, typeorm_1.Column)(),
+    __metadata("design:type", Number)
+], Attendance.prototype, "event_id", void 0);
 Attendance = __decorate([
     (0, typeorm_1.Entity)()
 ], Attendance);

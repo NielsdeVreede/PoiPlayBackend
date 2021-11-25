@@ -10,4 +10,10 @@ export class Attendance {
 
     @Column('date') 
     date: Date;
+
+    @Column()
+    name?: string
+
+    @Column()
+    event_id?: number
 }

@@ -6,7 +6,6 @@ import { PoiService } from './poi.service';
 export class PoiController {
     constructor (private readonly service: PoiService) {}
 
-
     @Get()
     getAll(): Promise<PoiEntity[]> {
         return this.service.getAllPOIs();
