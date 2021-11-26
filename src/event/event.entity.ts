@@ -6,7 +6,7 @@ export class EventEntity {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @Column( {length: 50} )
+    @Column( {length: 300} )
     name: string;
 
     @Column()

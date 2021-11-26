@@ -17,8 +17,7 @@ export class EventController {
     }
 
     @Post()
-    createNewEvent(@Body() event: EventEntity): string {
+    createNewEvent(@Body() event: EventEntity) {
         this.service.createNewEvent(event)
-        return "success";
     }
 }
