@@ -14,6 +14,7 @@ const app_service_1 = require("./app.service");
 const attendance_module_1 = require("./attendance/attendance.module");
 const poi_module_1 = require("./poi/poi.module");
 const event_module_1 = require("./event/event.module");
+const video_module_1 = require("./video/video.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -22,7 +23,8 @@ AppModule = __decorate([
             typeorm_1.TypeOrmModule.forRoot(),
             attendance_module_1.AttendanceModule,
             poi_module_1.PoiModule,
-            event_module_1.EventModule
+            event_module_1.EventModule,
+            video_module_1.VideoModule
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],

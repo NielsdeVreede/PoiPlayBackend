@@ -26,7 +26,6 @@ let AttendenceController = class AttendenceController {
     saveNewAttendance(attendance) {
         attendance.date = new Date();
         this.service.saveAttendance(attendance);
-        return "success";
     }
 };
 __decorate([
@@ -41,7 +40,7 @@ __decorate([
     __param(0, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [attendance_entity_1.Attendance]),
-    __metadata("design:returntype", String)
+    __metadata("design:returntype", void 0)
 ], AttendenceController.prototype, "saveNewAttendance", null);
 AttendenceController = __decorate([
     (0, common_1.Controller)('attendance'),

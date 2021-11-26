@@ -17,7 +17,6 @@ export class EventService {
                 poi_id: id
             }
         });
-        console.log(list)
         return list;
     }
 

@@ -12,9 +12,8 @@ export class AttendenceController {
     }
 
     @Post()
-    saveNewAttendance(@Body() attendance: Attendance): string {
+    saveNewAttendance(@Body() attendance: Attendance) {
         attendance.date = new Date();
         this.service.saveAttendance(attendance)
-        return "success";
     }
 }

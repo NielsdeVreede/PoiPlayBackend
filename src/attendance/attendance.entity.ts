@@ -11,9 +11,9 @@ export class Attendance {
     @Column('date') 
     date: Date;
 
-    @Column()
-    name?: string
+    @Column({ nullable: true })
+    name!: string
 
-    @Column()
-    event_id?: number
+    @Column({ nullable: true })
+    event_id!: number
 }

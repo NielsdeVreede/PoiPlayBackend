@@ -9,7 +9,6 @@ export class PoiService {
 
     async getAllPOIs(): Promise<PoiEntity[]> {
         const [list, count] = await this.poiRepository.findAndCount();
-        console.log(list);
         return list;
     }
 }

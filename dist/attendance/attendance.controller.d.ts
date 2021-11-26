@@ -4,5 +4,5 @@ export declare class AttendenceController {
     private readonly service;
     constructor(service: AttendenceService);
     getDefaultAttandence(id: number): Promise<number>;
-    saveNewAttendance(attendance: Attendance): string;
+    saveNewAttendance(attendance: Attendance): void;
 }
